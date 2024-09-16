@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="./icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/"><img class="youtube-logo" src="./icons/youtube-logo.svg"></a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="./icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="./icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="./icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="./icons/notifications.svg">
+          <div class="notifications-count">4</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="./icons/my-channel.jpg">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com"><img src="icons/home.svg"></a>
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/trending"><img src="icons/explore.svg"></a>
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/subscriptions"><img src="icons/subscriptions.svg"></a>
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/originals"><img src="icons/originals.svg"></a>
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><img src="icons/youtube-music.svg"></a>
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/you"><img src="icons/library.svg"></a>
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">18:59</div>
+          <a href="https://www.youtube.com/watch?v=gZt556WD7ps"><img class="thumbnail" src="thumbnails/thumbnail-1.png"></a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              2021 Tri-State Tornado: Consumed By Darkness
+            </p>
+            <p class="video-author">
+              TornadoTRX
+            </p>
+            <p class="video-stats">
+              1M views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=46dZH7LDbf8"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+          <div class="video-time">47:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Mock Google Coding Interview with a Meta Intern
+            </p>
+            <p class="video-author">
+              NeetCode
+            </p>
+            <p class="video-stats">
+              1M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">5:06</div>
+          <a href="https://www.youtube.com/watch?v=MM1-lbwNJ3c"><img class="thumbnail" src="thumbnails/thumbnail-3.webp"></a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Falling Into Saturn (Simulation)
+            </p>
+            <p class="video-author">
+              Stargaze
+            </p>
+            <p class="video-stats">
+              2.1M views &#183; 7 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">7:14</div>
+          <a href="https://www.youtube.com/watch?v=YWuPp1v-sI8"><img class="thumbnail" src="thumbnails/thumbnail-4.webp"></a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              dropping a gopro under a cruise ship
+            </p>
+            <p class="video-author">
+              Odysseas Froilan
+            </p>
+            <p class="video-stats">
+              8.1M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">21:27</div>
+          <a href="https://www.youtube.com/watch?v=vPdUjLqC15Q"><img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Factorio teaches you software enineering, seriously.
+            </p>
+            <p class="video-author">
+              Tony Zhu
+            </p>
+            <p class="video-stats">
+              1.6M views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">1:02:19</div>
+          <a href="https://www.youtube.com/watch?v=60q5F-Tf_qc"><img class="thumbnail" src="thumbnails/thumbnail-6.webp"></a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Cargo Train Journey To Capital of Georgia
+            </p>
+            <p class="video-author">
+              Shiey
+            </p>
+            <p class="video-stats">
+              331K views &#183; 12 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
