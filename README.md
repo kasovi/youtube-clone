@@ -1,4 +1,4 @@
-# youtube-clone
+# Youtube Homepage Clone
 
 ### This is a responsive design clone of the YouTube.com homepage, created as an exercise to improve HTML and CSS skills.
 
